@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* TODO: Criar regra da div user-image com background image e background-clip para criar o ícone */ 
+
+/* PAGE HEADER */
+
+body {
+    width: 100%;
+}
+
+.page-header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-items {
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-hambuerguer-button {
+    background-color: white;
+}
+
+#center-items {
+    display: flex;
+}
+
+#search-bar {
+    width: 348px;
+    height: 40px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+
+#search-button {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCC;
+}
+
+#right-items {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user-image {
+    width: 34px;
+    height: 34px;
+    background-image: url("../images/header/Perfil.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
