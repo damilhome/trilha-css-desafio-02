@@ -99,6 +99,7 @@ main {
 
 #channel {
     display: flex;
+    align-items: center;
 }
 
 #channel-profile-image {
@@ -123,6 +124,7 @@ main {
 
 #like, #deslike, #share, #download {
     display: flex;
+    align-items: center;
 }
 
 #like img, #deslike img, #share img, #download img {
