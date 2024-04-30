@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,14 +13,20 @@
 
 /* PAGE HEADER */
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 body {
     width: 100%;
+    background-color: #F9F9F9;
 }
 
 .page-header {
     padding: 24px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 #left-items {
@@ -63,4 +71,74 @@ body {
     background-image: url("../images/header/Perfil.jpg");
     background-size: cover;
     border-radius: 50%;
+}
+
+/* MAIN */
+
+main {
+    min-height: 100vh;
+}
+
+#video-part {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-between;
+}
+
+#video-title {
+    font-size: 20px;
+}
+
+#video-actions {
+    display: flex;
+    width: 902px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#channel {
+    display: flex;
+}
+
+#channel-profile-image {
+    margin: 0 12px 0 0;
+    width: 42px;
+    height: 42px;
+    background-image: url(../images/main/Channel\ Avatar.png);
+}
+
+#channel-information p:first-child {
+    font-weight: bold;
+}
+
+#subscribe-button {
+    height: 40px;
+    padding: 0 35px;
+    background-color: #CC0000;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#like, #deslike, #share, #download {
+    display: flex;
+}
+
+#like img, #deslike img, #share img, #download img {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#video-metadata {
+    display: flex;
+    font-weight: bold;
+}
+
+#video-metadata p {
+    margin: 0 10px 0 0;
+}
+
+#video-description {
+    width: 510px;
 }
