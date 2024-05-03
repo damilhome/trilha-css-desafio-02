@@ -76,8 +76,10 @@ body {
 /* MAIN */
 
 main {
+    width: 100%;
     min-height: 100vh;
     display: flex;
+    justify-content: center;
 }
 
 /* VIDEO PART */
@@ -87,6 +89,7 @@ main {
     flex-direction: column;
     height: 800px;
     justify-content: space-between;
+    margin: 0 0 0 15px;
 }
 
 #video-title {
@@ -156,6 +159,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 0 0 15px;
 }
 
 .recomendations-layout {
