@@ -149,3 +149,35 @@ main {
 }
 
 /* RECOMMENDATIONS PART */
+
+#recomendations {
+    width: 365px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recomendations-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomendations-layout img {
+    width: 160px;
+    height: 90px;
+}
+
+.recomendations-info {
+    width: 196px;
+    font-size: 12px;
+}
+
+.recomendations-info h3 {
+    font-size: 14px;
+    margin: 0 0 6px 0;
+}
+
+.recomendation-metadata {
+    margin: 6px 0;
+}
